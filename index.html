@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <script src="script.js"></script>
+
+  <!-- Step 1 - add `<script>` tag (with closing tag) pointing to `script.js` -->
+  <!-- Step 2 - add `<script>` just before the closing tag (`</body>`) that invokes `initializeMainPage` function
+                from `script.js` -->
+  <!-- Step 2a - continue with instruction in `script.js` -->
+</head>
+
+<body>
+  <h1>Todo</h1>
+
+  <form>
+    <input type="text" />
+    <button type="submit">Add todo</button>
+  </form>
+
+  <ul>
+    <li>
+      <input type="checkbox" />
+      <span>
+          Item 1
+        </span>
+      <button>X</button>
+    </li>
+    <li>
+      <input type="checkbox" />
+      <span>
+          Item 2
+        </span>
+      <button>X</button>
+    </li>
+  </ul>
+  <a href="done-items.html">Show done items</a>
+
+  <script>
+    initializeMainPage();
+  </script>
+</body>
+
+</html>
